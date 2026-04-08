@@ -117,9 +117,9 @@ def evaluate_results(member_dir, non_member_dir, output_file):
 if __name__ == "__main__":
     # --- 路径配置 ---
     # 请将成员数据的 _result.csv 放入以下文件夹
-    MEMBER_RESULTS_DIR = "/root/autodl-tmp/results_member" 
+    MEMBER_RESULTS_DIR = "/root/autodl-tmp/findThreshold/member_results" 
     # 请将非成员数据的 _result.csv 放入以下文件夹
-    NON_MEMBER_RESULTS_DIR = "/root/autodl-tmp/results_non_member" 
+    NON_MEMBER_RESULTS_DIR = "/root/autodl-tmp/findThreshold/nonmember_results" 
     
     # 所有打分数据的输出文件
     OUTPUT_SCORE_CSV = "all_evaluation_scores.csv"

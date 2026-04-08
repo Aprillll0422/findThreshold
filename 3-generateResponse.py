@@ -77,8 +77,8 @@ def run_inference(input_folder, output_folder, base_model_path, lora_path, max_n
 
 if __name__ == "__main__":
     # --- 路径配置 (根据你的 AutoDL 环境) ---
-    INPUT_CSV_DIR = "/root/autodl-tmp/findThreshold/traindata-cleaned/fiction-256token"
-    OUTPUT_RESULT_DIR = "/root/autodl-tmp/findThreshold/member_results"
+    INPUT_CSV_DIR = "/root/autodl-tmp/findThreshold/nontraindata-cleaned/nontraindata-cleaned-256token"
+    OUTPUT_RESULT_DIR = "/root/autodl-tmp/findThreshold/nonmember_results"
     BASE_MODEL_PATH = "/root/autodl-tmp/llama2-13B"
     LORA_ADAPTER_PATH = "/root/autodl-tmp/final-loss=1.5"
     
