@@ -69,8 +69,8 @@ def process_txt_with_lora(input_folder, output_folder, base_model_path, num_samp
 
 if __name__ == "__main__":
     # --- 路径配置 ---
-    INPUT_DIR = "/root/autodl-tmp/findThreshold/nontraindata-cleaned"
-    OUTPUT_DIR = "/root/autodl-tmp/findThreshold/nontraindata-cleaned/nontraindata-cleaned-256token"
+    INPUT_DIR = "/root/autodl-tmp/findThreshold/traindata-cleaned/fiction"
+    OUTPUT_DIR = "/root/autodl-tmp/findThreshold/traindata-cleaned/fiction-256token"
     BASE_MODEL_PATH = "/root/autodl-tmp/llama2-13B"
     
     # 执行处理：100个样本，256前缀，128后缀
